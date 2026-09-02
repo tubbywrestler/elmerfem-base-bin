@@ -10,5 +10,8 @@ jobs:
     uses: tubbywrestler/aur-bin-chicken/.github/workflows/sync-and-build.yml@master
     with:
       aur_pkgbase: elmerfem-base
+      # Elmer's ctest suite is slow (MPI, many cases) - trust upstream's own
+      # testing rather than re-running it on every CI build.
+      run_tests: false
     permissions:
       contents: write
