@@ -7,7 +7,7 @@ on:
 
 jobs:
   sync:
-    uses: tubbywrestler/aur-bin-chicken/.github/workflows/sync-and-build.yml@main
+    uses: tubbywrestler/aur-bin-chicken/.github/workflows/sync-and-build.yml@master
     with:
       aur_pkgbase: elmerfem-base
     permissions:
