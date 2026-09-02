@@ -1,0 +1,14 @@
+name: Sync elmerfem-base
+
+on:
+  schedule:
+    - cron: '37 4 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    uses: tubbywrestler/aur-bin-chicken/.github/workflows/sync-and-build.yml@main
+    with:
+      aur_pkgbase: elmerfem-base
+    permissions:
+      contents: write
