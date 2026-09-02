@@ -19,7 +19,7 @@ depends=(
 )
 
 source=("https://github.com/tubbywrestler/elmerfem-base-bin/releases/download/${pkgver}-${_pkgrel_src}/elmerfem-base-${pkgver}-${_pkgrel_src}-x86_64.pkg.tar.zst")
-sha256sums=('SKIP')
+sha256sums=('bc0837706741633165e925f93e5c7541f3810628657882f86ef0524a3f36b0fd')
 
 package() {
     bsdtar -xf "${srcdir}/elmerfem-base-${pkgver}-${_pkgrel_src}-x86_64.pkg.tar.zst" -C "${pkgdir}" --exclude .PKGINFO --exclude .BUILDINFO --exclude .MTREE
