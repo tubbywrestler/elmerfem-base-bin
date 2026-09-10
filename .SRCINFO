@@ -15,7 +15,7 @@ pkgbase = elmerfem-base-bin
 	conflicts = elmerfem-git
 	conflicts = elemerfem
 	options = !debug
-	source = https://github.com/tubbywrestler/elmerfem-base-bin/releases/download/26.2.1-1/elmerfem-base-26.2.1-1-x86_64.pkg.tar.zst
-	sha256sums = 34301b1db539ed5f1fbca857cb40f297c06583c5d68d271a5fa2ee7dfb3ca518
+	source = https://github.com/tubbywrestler/elmerfem-base-bin/releases/download/26.2.1-2/elmerfem-base-26.2.1-2-x86_64.pkg.tar.zst
+	sha256sums = df37a1246fabad5141b315ff8b86aa914de39c2b233bdcc3c894ca31b8ce276a
 
 pkgname = elmerfem-base-bin
